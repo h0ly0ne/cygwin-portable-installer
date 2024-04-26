@@ -243,7 +243,7 @@ echo Creating updater [%Updater_cmd%]...
   echo --no-shortcuts ^^
   echo --no-desktop ^^
   echo --delete-orphans ^^
-  echo --upgrade-also ^^
+  echo --no-startmenu ^^
   echo --no-replaceonreboot ^^
   echo --quiet-mode ^|^| goto :fail
   if "%DELETE_CYGWIN_PACKAGE_CACHE%" == "yes" (
