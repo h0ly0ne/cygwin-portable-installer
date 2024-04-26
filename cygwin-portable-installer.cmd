@@ -213,7 +213,7 @@ echo Running Cygwin setup...
   --no-shortcuts ^
   --no-desktop ^
   --delete-orphans ^
-  --upgrade-also ^
+  --no-startmenu ^
   --no-replaceonreboot ^
   --quiet-mode ^
   --packages %CYGWIN_PACKAGES% || goto :fail
